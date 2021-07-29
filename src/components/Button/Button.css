@@ -33,6 +33,12 @@ button img{
 .default:focus{
     background-color: var(--btn-default-bg-hover);
 }
+.default.disabled{
+    color: var(--btn-disabled-color);
+    background-color: var(--btn-default-bg);
+    box-shadow: none;
+    cursor: unset;
+}
 .primary{
     color: var(--btn-primary-color);
     background: var(--btn-primary-bg);
@@ -60,8 +66,6 @@ button img{
     background: var(--btn-danger-bg-hover);
 }
 
-
-
 .outline{
     background-color : var(--btn-outline-bg);
     box-shadow: var(--btn-outline-shadow);
@@ -73,23 +77,3 @@ button img{
     background: var(--btn-outline-bg-hover);
 }
 
-.text{
-    background-color: transparent;
-    box-shadow: none;
-    border: none;
-    color: var(--btn-outline-color);
-}
-.text:hover,
-.text:focus{
-    background: var(--btn-outline-bg-hover);
-}
-.disabled{
-    color: var(--btn-disabled-color);
-    background-color: var(--btn-default-bg);
-    box-shadow: none;
-    cursor: unset;
-    
-}
-.disabled.text{
-    background-color: transparent;
-}
