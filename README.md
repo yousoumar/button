@@ -1,9 +1,11 @@
 ## Button component
 
-Il s'agit là de réasliser un composant `React` de type `Button` réutilisable.
+Il s'agit là de réaliser  un composant `React` nommé `Button` de type `button` réutilisable.
 
-Vous avez succecivement les inputs suivants avec le code suivant :
+Vous avez succecivement avec le code suivant les boutons suivants :
+
+<img src = "code.png"></img>
 
 <img src = "secreenshot.png"></img>
 
-<img src = "code.png"></img>
+
