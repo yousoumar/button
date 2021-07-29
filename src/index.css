@@ -1,13 +1,53 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+*, *::after, *::before{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+:root{
+  --btn-default-bg :#E0E0E0;
+  --btn-default-bg-hover : #AEAEAE;
+  --btn-default-color :#3F3F3F;
+  --btn-default-shadow : 0px 2px 3px rgba(51, 51, 51, 0.2);
+
+  --btn-disabled-color : #9E9E9E;
+
+  --btn-outline-bg : transparent;
+  --btn-outline-color : #3D5AFE;
+  --btn-outline-bg-hover :rgba(41, 98, 255, 0.1);
+  --btn-outline-shadow : none;
+
+  --btn-primary-color : #FFFFFF;
+  --btn-primary-bg : #2962FF;
+  --btn-primary-shdow : 0px 2px 3px rgba(41, 98, 255, 0.2);
+  --btn-primary-bg-hover : #0039CB;
+
+  --btn-secondary-bg :#455A64;
+  --btn-secondary-shadow :  0px 2px 3px rgba(69, 90, 100, 0.2);
+  --btn-secondary-color : #FFFFFF;
+  --btn-secondary-bg-hover : #1C313A;
+
+  --btn-danger-bg :#D32F2F;
+  --btn-danger-shadow :  0px 2px 3px rgba(211, 47, 47, 0.2);
+  --btn-danger-color : #FFFFFF;
+  --btn-danger-bg-hover : #9A0007;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Fira Mono', monospace;
+  min-height: 100vh;
+  overflow: hidden;
+  padding : 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#root{
+  width: 100%;
+
 }
