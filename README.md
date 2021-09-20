@@ -1,8 +1,8 @@
 ## Button component
 
-Il s'agit là de réaliser  un composant `React` nommé `Button` de type `button` réutilisable.
+A `React` component, named `Button`, for creating reusable `HTML` button.
 
-Vous avez succecivement avec le code suivant les boutons suivants :
+You have successively with the following code the following buttons :
 
 <img src = "code.png"></img>
 
